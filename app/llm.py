@@ -13,7 +13,6 @@ import sqlite3
 import requests
 load_dotenv()
 
-
 class ChatState(TypedDict):
     messages:Annotated[list[BaseMessage],add_messages]   # use add_message it add one by one 
 
